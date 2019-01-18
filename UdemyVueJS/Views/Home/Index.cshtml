@@ -1,0 +1,26 @@
+﻿@*
+
+    Vue setup youtube
+    https://www.bing.com/videos/search?q=setup+vue.js++in+visual+studio&&view=detail&mid=DCAC6CDD76E953530ADCDCAC6CDD76E953530ADC&&FORM=VRDGAR*@
+
+@*Udemy tutorial link
+    https://www.udemy.com/the-complete-vue-js-course/learn/v4/t/lecture/12014870?start=0*@
+
+@*No webpack!!!!   No import/export statements
+
+    Trick is to load content of required files in right order, supports IE 11 (does not support html 5 syntax)
+
+*@
+
+@using UdemyVueJS.Models
+
+@Helpers.LoadFile("~/Vue/templates/comp1-template.html")
+@Helpers.LoadFile("~/Vue/components/comp1.html")
+@Helpers.LoadFile("~/Vue/templates/maintemplate.html")
+@Helpers.LoadFile("~/Vue/mainapp/mainapp1.html")
+
+@*code below prior to adding helpers in model folder*@
+
+@*@Html.Raw(File.ReadAllText(Server.MapPath("~/Vue/components/comp1.html")))
+    @Html.Raw(File.ReadAllText(Server.MapPath("~/Vue/templates/maintemplate.html")))
+    @Html.Raw(File.ReadAllText(Server.MapPath("~/Vue/mainapp/mainapp1.html")))*@

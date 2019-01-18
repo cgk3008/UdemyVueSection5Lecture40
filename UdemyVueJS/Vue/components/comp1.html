@@ -1,0 +1,9 @@
+﻿<!--view component used by main view application, moved template- comp1-template in template folder-->
+<!--moving <span> foo </span>' to <template> </template> section-->
+
+<script>
+    Vue.component('comp1', 'compContact', 'compHome', 'compPage', {
+        template: '#comp1-template',
+        props: ['foo'],
+    });
+</script>

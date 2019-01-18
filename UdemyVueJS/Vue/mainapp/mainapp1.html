@@ -1,0 +1,39 @@
+﻿<!--Main View application-->
+
+<script>
+
+    new Vue({
+        el: "#app",
+
+        //components: ['comp2'],
+
+        data: {
+            countries: [
+                'EEUU',
+                'India',
+                'UK',
+                'Russia'
+            ],
+            formdata: {
+                name: '',
+                lastname: '',
+                subject: '',
+                message: 'Some default content',
+                extras: [],
+                gender: 'alien',
+                country: 'India'
+            }
+
+        },
+        methods: {
+            submitForm() {
+                console.log(this.formdata);
+                console.log(JSON.stringify(this.formdata))
+            },
+
+            destroyed() {
+                console.log('destroyed')
+            },
+        }
+    });
+</script>

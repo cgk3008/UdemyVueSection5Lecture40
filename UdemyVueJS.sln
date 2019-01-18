@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdemyVueJSCloneAddFormsCode", "UdemyVueJSCloneAddFormsCode\UdemyVueJSCloneAddFormsCode.csproj", "{39177F19-4E7E-4DD2-B8E2-6E2146E52F7E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdemyVueJS", "UdemyVueJS\UdemyVueJS.csproj", "{BBBD4226-2A6C-4B90-8344-B7AB49C3D8AE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{39177F19-4E7E-4DD2-B8E2-6E2146E52F7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{39177F19-4E7E-4DD2-B8E2-6E2146E52F7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{39177F19-4E7E-4DD2-B8E2-6E2146E52F7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{39177F19-4E7E-4DD2-B8E2-6E2146E52F7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBBD4226-2A6C-4B90-8344-B7AB49C3D8AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBBD4226-2A6C-4B90-8344-B7AB49C3D8AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBBD4226-2A6C-4B90-8344-B7AB49C3D8AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBBD4226-2A6C-4B90-8344-B7AB49C3D8AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {522931E6-DC5E-434A-B01F-749465887E10}
+		SolutionGuid = {A9CBBF15-0C88-4AEB-9034-8629A463CD45}
 	EndGlobalSection
 EndGlobal
